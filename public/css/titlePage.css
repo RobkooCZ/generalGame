@@ -3,3 +3,69 @@
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+body {
+    background-image: url("../images/game/map/map.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 70%;
+    & .header {
+        border: 1vh solid black;
+        border-radius: 1vh;
+        background-color: antiquewhite;
+        position: fixed;
+        top: 2%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 1vh;
+    }
+    
+    .login {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        height: 100vh;
+    }
+
+    .pfp {
+        position: absolute;
+        top: 1vh;
+        right: 1vh;
+    }
+    
+    .logoutButton {
+        position: absolute;
+        top: 4vh;
+        right: 20vh;
+    }
+
+    .loginButton {
+        margin-left: 10vh;
+    }
+
+    .registerButton {
+        margin-right: 10vh;
+    }
+
+    .bigButton {
+        padding: 1vh 10vh 1vh 10vh;
+        font-size: 5vh; 
+        border: 0.5vh solid black;
+        background-color: antiquewhite;
+        color: black;
+        transition: transform 0.3s ease;
+    }
+
+    .button {
+        border: 0.5vh solid black;
+        text-decoration: none;
+        padding: 1vh;
+        background-color: antiquewhite;
+        color: black;
+    }
+    
+    .bigButton:hover {
+       background-color: white;
+       transform: scale(1.2);
+    }
+}

@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    .playerInfo {
+        position: absolute;
+        top: 1vh;
+        left: 1vh;
+        border: 0.5vh solid black;
+    }
+}

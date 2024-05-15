@@ -3,7 +3,7 @@ import "@/public/css/titlePage.css"
 function Header (){
     return (
         <div className="header">
-            <h1>ZHUKOV SIMULATOR v1.0.0</h1>
+            <h1>General Game</h1>
         </div>
     )
 }
