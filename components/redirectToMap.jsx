@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Redirect } from 'react-router-dom';
+import Link from 'next/link';
 
 const RedirectToMap = () => {
   const [redirect, setRedirect] = useState(false);
@@ -15,9 +16,7 @@ const RedirectToMap = () => {
   }
 
   return (
-    <button className='playButton bigButton' onClick={redirectToPage}>
-      PLAY
-    </button>
+    <Link href='/map/'>Play</Link>
   );
 };
 

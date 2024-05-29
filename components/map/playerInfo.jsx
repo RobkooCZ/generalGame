@@ -8,3 +8,5 @@ function PlayerInfo(){
         </div>
     )
 }
+
+export default PlayerInfo;
